@@ -110,7 +110,7 @@ figcaption{
 	border: 0;
 	background: none;
 	color: #000;
-    margin-left: 225x;
+    margin-left: 225px;
 }
 #menu::before {
     content: "☰";
