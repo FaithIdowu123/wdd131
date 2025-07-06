@@ -117,7 +117,7 @@ figcaption{
 }
 
 #menu.show::before {
-    content: "❎";
+    content: "X";
 }
 
 footer{
