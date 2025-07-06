@@ -37,7 +37,12 @@
 
     }
     .navigation a {  
-        background-color: transparent;
+        border: 1px solid red;
+    }
+    .show a{
+        margin: 0 auto;
+        width: fit-content;
+        padding-right: 14px;
     }
     main {
         margin: 0 auto;
