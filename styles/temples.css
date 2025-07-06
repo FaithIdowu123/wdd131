@@ -22,6 +22,7 @@ h1{
     color: var(--accent1-color);
     font-size: 1.5rem;
     text-align: left;
+    margin-left: -40px;
 }
 
 #title.close{
@@ -110,7 +111,7 @@ figcaption{
 	border: 0;
 	background: none;
 	color: #000;
-    margin-left: 225px;
+    margin-left: 200px;
 }
 #menu::before {
     content: "☰";
@@ -118,10 +119,10 @@ figcaption{
 
 #menu.show::before {
     content: "❎";
-    text-align: right;
 }
 
 footer{
     background-color: var(--primary-color);
     color: var(--accent1-color);
+    margin: 0 auto;
 }

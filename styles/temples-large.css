@@ -1,14 +1,17 @@
 @media screen and (min-width: 37.5em) {
     header{
         display: grid;
-        grid-template-columns: 1fr 2fr;
+        grid-template-columns: repeat(2, minmax(300px, 400px));
         background-color: purple;
         height: auto;
+        margin:  0 auto;
+        width: 900px;
     }
 
     h1{
+        margin-left: 25px;
         margin-top: 10px;
-        margin-left: 5px;
+        width:fit-content;
     }
     #title.close{
         color: white;
@@ -20,18 +23,20 @@
         display: inline;
         background-color: transparent;
         margin-top: -15px;
+        width: 100%;
     }
     .navigation{
         display: flex;
-        margin-top: 10px;
+        margin-top: 20px;
+        gap: 30px;
     }
     .navigation li{
+
         display: block;
         margin-right: -20px;
-        
+
     }
-    .navigation a {
-        margin: 10px 20px 0px 20px;
+    .navigation a {  
         background-color: transparent;
     }
     main {
@@ -45,5 +50,8 @@
         background-color: transparent;
         margin-top: 15px;
         width:100%;
+    }
+    footer{
+        width: 900px;
     }
 }
