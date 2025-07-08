@@ -44,6 +44,13 @@
     main {
         margin: 0 auto;
     }
+
+    img{
+    display: block;
+    width: 192px; 
+    height: 192px; 
+
+    }
     
     .show li{
         background-color: transparent;
@@ -56,4 +63,6 @@
     footer{
         width: 900px;
     }
+
+
 }
