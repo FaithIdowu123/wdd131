@@ -109,12 +109,10 @@ figcaption{
 	font-size: 1.8rem;
 	border: 0;
 	background: none;
-	color: #000;
+	color: var(purple);
     margin-left: 75px;
 }
-#menu::before {
-    content: "☰";
-}
+
 
 #menu.show::before {
     content: "X";
