@@ -9,7 +9,7 @@ var windChill = "N/A";
 if (Temp_C <= 10){  
     if (windspeed > 4.8){
         const vPower = Math.pow(windspeed, 0.16);
-        var WC = Calculate_windchill(Temp_C, vPower);
+        var WC = calculateWindChill(Temp_C, vPower);
         WC = parseFloat(WC.toFixed(1));
         
         windChill = `${WC}°C`;
@@ -19,6 +19,6 @@ if (Temp_C <= 10){
 
 document.querySelector("#Windchill").textContent = `${windChill}`;
 
-function Calculate_windchill(Temp, power){
+function calculateWindChill(Temp, power){
     return 13.12 + 0.6215 * Temp - 11.37 * power + 0.3965 * Temp * power;
 };

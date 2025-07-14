@@ -128,11 +128,13 @@ picture img, source{
     margin-left: -130px;
 }
 
+.weather h2::after{
+    content:"⛅";
+    font-size: larger;
+}
+
 .weather img{
-    display: inline;
-    margin-bottom: -10px;
-    margin-left: -90px;
-    width: 40px;
+    display: none;
 }
 
 }
