@@ -1,0 +1,37 @@
+*{
+    text-align: center;
+    margin: 0 auto;
+}
+table {
+    border-collapse: collapse;
+    width: 400px;
+}
+thead {
+    background-color: black;
+    color: white;
+}
+
+thead tr:last-child th {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: rgb(90, 90, 90);
+}
+
+.blank{
+    background-color: black;
+}
+th, td {
+    padding: 0.5em 1rem;
+}
+
+tbody th, tbody td {
+    border: 1px solid rgba(0, 0, 0, 0.1);;
+}
+tbody tr:nth-child(even) {
+    background-color: rgb(240, 240, 240);
+}
+
+caption {
+    caption-side: bottom;
+    font-size: smaller;
+    padding: 0.2rem;
+}
