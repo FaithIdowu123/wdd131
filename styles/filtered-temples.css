@@ -108,11 +108,11 @@ section h3, section p{
 }
 img{
     display: block;
-    width: 400px; 
-    height: auto; 
+    width: 300px; 
+    height: 300px; 
     margin: 0 auto;
-
     margin-bottom: 10px;
+    border: 1px solid red;
 }
     
 
