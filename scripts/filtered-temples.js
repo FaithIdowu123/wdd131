@@ -108,31 +108,25 @@ home.addEventListener("click", () => {
 });
 
 old.addEventListener("click", () => {
-    let filteredtemples = [];
-    temples.forEach(temple => {
+    let filteredtemples = temples.filter(temple => {
         let parts = temple.dedicated.split(",");
-        
         let number = parseInt(parts[0])
         if (number < 1900){
-            console.log(parts[0])
-            filteredtemples.push(temple);
-        };
-    createTemplecards(filteredtemples);
-    });   
+            return temple;
+        }; 
+    });
+    createTemplecards(filteredtemples);  
 });
 
 New.addEventListener("click", () => {
-    let filteredtemples = [];
-    temples.forEach(temple => {
+    let filteredtemples = temples.filter(temple => {
         let parts = temple.dedicated.split(",");
-        
         let number = parseInt(parts[0])
         if (number > 2000){
-            console.log(parts[0])
-            filteredtemples.push(temple);
-        };
-    createTemplecards(filteredtemples);
+            return temple;
+        }; 
     });
+    createTemplecards(filteredtemples);
 });
 
 large.addEventListener("click", () => {
