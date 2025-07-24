@@ -48,22 +48,13 @@
     section {
     background-color: rgb(173, 172, 172);
     width: 250px;
-    margin: 0 auto;
-    text-align: center;
-    height:auto;
     }
-    section h3, section p{
-    text-align: center;
-    margin-top: 7px;
-    margin-bottom: 7px;
-    font-size: 12px;
-    }
+
     
     img{
     display: block;
     width: 192px; 
     height: 192px; 
-
     }
     
     .show li{
