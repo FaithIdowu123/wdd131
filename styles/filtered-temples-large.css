@@ -23,7 +23,6 @@
         display: inline;
         background-color: transparent;
         margin-top: -15px;
-        width: 100%;
     }
     .navigation{
         display: flex;
@@ -37,7 +36,6 @@
 
     }
     .show a{
-        margin: 0 auto;
         width: fit-content;
         padding-right: 14px;
     }
@@ -52,7 +50,6 @@
 
     
     img{
-    display: block;
     width: 192px; 
     height: 192px; 
     }
