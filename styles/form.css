@@ -1,3 +1,8 @@
+:root {
+    --primary-color: purple;
+    
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -14,7 +19,7 @@ body{
 
 header {
     color: white;
-    background-color: purple;
+    background-color: var(--primary-color);
     text-align: center;
     padding: .5rem 0;
     margin-bottom: 20px;
@@ -107,7 +112,7 @@ input[type="submit"]:hover {
 }
 
 footer{
-    background-color: purple;
+    background-color: var(--primary-color);
     text-align: center;
     padding: .75rem 0;
     margin-top: 20px;
