@@ -6,6 +6,9 @@
     <title>Form Page</title>
     <meta name="description" content="This website is an assignment for the WDD 131 Course, this website has a form for posting reviews for products purchased. This assignment is meant to help students learn how to create professional looking forms on websites.">
     <meta name="author" content="Faith Oluwatise Idowu">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/form.css">
     <script src="scripts/form.js" defer></script>
 </head>
@@ -24,13 +27,13 @@
             <div class="rating">Overall Rating</div>
             <div class="stars">
                 <label>☆<input type="radio" id="1star" name="review" required></label>
-                <label>☆☆<input type="radio" id="2star"name="review" required></label>
-                <label>☆☆☆<input type="radio" id="3star"name="review" required></label>
+                <label>☆☆<input type="radio" id="2star" name="review" required></label>
+                <label>☆☆☆<input type="radio" id="3star" name="review" required></label>
                 <label>☆☆☆☆<input type="radio" id="4star" name="review" required></label>
-                <label>☆☆☆☆☆<input type="radio" id="5star"name="review" required></label>
+                <label>☆☆☆☆☆<input type="radio" id="5star" name="review" required></label>
             </div>
 
-            <label>Date of Installation<input type="date" id="installation" name="DateOfInstallation" required></input></label>
+            <label>Date of Installation<input type="date" id="installation" name="DateOfInstallation" required></label>
 
             <div>Which features did you find useful in the product? </div>
             <div class="italize">(check all that apply)</div>
@@ -41,12 +44,12 @@
             
             <div class="textarea">
                 <label>Written Review
-                    <div class="blue">(Optional)</div>
+                    <span class="blue">(Optional)</span>
                     <textarea id="review" name="writtenReview"></textarea>
                 </label>
             </div>
             <label>Your Name
-                <div class="blue">(Optional)</div>
+                <span class="blue">(Optional)</span>
                 <input type="text" id="name" name="ame">
             </label>
 
@@ -58,4 +61,4 @@
         <p><span id="lastmodified"></span></p>
     </footer>
 </body>
-</html
+</html>
