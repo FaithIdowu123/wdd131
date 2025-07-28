@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Page</title>
+    <meta name="description" content="This website is an assignment for the WDD 131 Course, this website has a form for posting reviews for products purchased. This assignment is meant to help students learn how to create professional looking forms on websites.">
+    <meta name="author" content="Faith Oluwatise Idowu">
+    <link rel="stylesheet" href="styles/form.css">
+    <script src="scripts/form.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Product Review</h1>
+    </header>
+    <main>
+        <form method="get" action="review.html">
+            <label>Product Name
+                <select id="product" name="products" required>
+                    <option value="" disabled selected>Select a Product</option>
+                </select>
+            </label>
+
+            <div class="rating">Overall Rating</div>
+            <div class="stars">
+                <label>☆<input type="radio" id="1star" name="review" required></label>
+                <label>☆☆<input type="radio" id="2star"name="review" required></label>
+                <label>☆☆☆<input type="radio" id="3star"name="review" required></label>
+                <label>☆☆☆☆<input type="radio" id="4star" name="review" required></label>
+                <label>☆☆☆☆☆<input type="radio" id="5star"name="review" required></label>
+            </div>
+
+            <label>Date of Installation<input type="date" id="installation" name="DateOfInstallation" required></input></label>
+
+            <div>Which features did you find useful in the product? </div>
+            <div class="italize">(check all that apply)</div>
+            <label><input type="checkbox" id="features1" name="durable" value="Durability">Durability</label>
+            <label><input type="checkbox" id="features2" name="ease" value="Ease of Use">Ease of Use</label>
+            <label><input type="checkbox" id="features3" name="perform" value="Performance">Performance</label>
+            <label><input type="checkbox" id="features4" name="design" value="Design">Design</label>
+            
+            <div class="textarea">
+                <label>Written Review
+                    <div class="blue">(Optional)</div>
+                    <textarea id="review" name="writtenReview"></textarea>
+                </label>
+            </div>
+            <label>Your Name
+                <div class="blue">(Optional)</div>
+                <input type="text" id="name" name="ame">
+            </label>
+
+            <input type="submit" id="button" value="Post Review">
+        </form>
+    </main>
+    <footer>
+        <p><span id="year"></span>🔗 Faith Oluwatise Idowu 🔗 Nigeria</p>
+        <p><span id="lastmodified"></span></p>
+    </footer>
+</body>
+</html
