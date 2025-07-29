@@ -30,9 +30,19 @@ p, li{
     font-family: var(--body-font);
 }
 
-img{
+.logo{
     width: 200px;
-    max-height: 500px;
+    height: 125px;
+}
+
+.desktop{
+    width: 500px;
+    height: 300px;
+}
+
+.mobile{
+    width: 300px;
+    height: 600px;
 }
 
 footer{
