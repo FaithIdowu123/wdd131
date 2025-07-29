@@ -32,7 +32,7 @@ p, li{
 
 img{
     width: 200px;
-    height: auto;
+    max-height: 500px;
 }
 
 footer{
