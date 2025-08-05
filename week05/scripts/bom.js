@@ -16,8 +16,7 @@ button.addEventListener('click', function() {
         chaptersArray.push(input.value);
         setChapterList();
         input.value = "";
-        input.focus();
-        
+        input.focus();  
     }
     
     input.focus();
